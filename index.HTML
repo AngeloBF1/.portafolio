@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook -  Inicia sesión o registrate</title>
+    <link rel="icon" type="image/png" href="https://th.bing.com/th/id/OIP.lkR1eCnLcPZ32cYreDUNkgAAAA?rs=1&pid=ImgDetMain">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0 10%;
+            background-color: #f0f0f0;
+        }
+        .text-container {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .text-container p {
+            font-size: 1em;
+            font-weight: normal;
+            margin-top: 20px;
+        }
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 550px;
+            text-align: center;
+            height: 290px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+        
+        }
+        .login-container input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .login-container button {
+            padding: 11px;
+            border: none;
+            border-radius: 5px;
+            font-size: 21px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .login-container .login-button {
+            background-color: #0866ff;
+            color: white;
+        }
+        .login-container .forgot-password {
+            background-color: transparent;
+            color: #007bff;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        .login-container .separator {
+            border-bottom: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .login-container .create-account {
+            background-color: #42b72a;
+            color: white;
+        }
+        .facebookimagen {
+            width: 350px;
+            margin-right: 100px;
+            position:relative;
+        }
+        .textofacebook{
+            font-size: 24px;
+            margin-bottom: 100px;   
+        }
+         
+    </style>    
+</head> 
+<body>
+    <div>
+        <div class="text-container"> <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" class="facebookimagen"></div>
+        <p class="textofacebook">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+    </div>
+    <div class="login-container">
+        <form>
+            <input type="text" placeholder="Correo Electrónico o Número de Teléfono" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit" class="login-button">Iniciar Sesión</button>
+        </form>
+        <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+        <div class="separator"></div>
+        <button class="create-account">Crear Cuenta Nueva</button>
+    </div>
+</body>
+</html>
